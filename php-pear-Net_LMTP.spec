@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This package provides an implementation of the RFC2033 LMTP using
 PEAR's Net_Socket and Auth_SASL class.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ten pakiet dostarcza implementacjê protoko³u LMTP (opisanego w
