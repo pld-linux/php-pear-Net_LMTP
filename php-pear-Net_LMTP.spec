@@ -29,7 +29,7 @@ This class has in PEAR status: %{_status}.
 Dostarcza implementacji protoko³u LMTP (opisanego w RFC2033) za pomoc±
 klas Net_Socket oraz Auth_SASL.
 
-#Ta klasa ma w PEAR status: %{_status}.
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
