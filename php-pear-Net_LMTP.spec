@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - an implementation of the RFC2033 LMTP protocol
 Summary(pl):	%{_pearname} - implementacja protoko³u LMTP (RFC2033)
 Name:		php-pear-%{_pearname}
-Version:	0.7.0
-Release:	2
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	2d757ad4eb8f8d8ef3f69f8b1c63df4d
+# Source0-md5:	646d1c5293b069cda9b4a94011a18e20
 URL:		http://pear.php.net/package/Net_LMTP/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
