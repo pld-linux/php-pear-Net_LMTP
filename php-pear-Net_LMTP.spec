@@ -4,8 +4,8 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Provides an implementation of the RFC2033 LMTP protocol
-Summary(pl):	%{_pearname} - Dostarcza implementacjê protoko³u LMTP (RFC2033)
+Summary:	%{_pearname} - an implementation of the RFC2033 LMTP protocol
+Summary(pl):	%{_pearname} - implementacja protoko³u LMTP (RFC2033)
 Name:		php-pear-%{_pearname}
 Version:	0.7.0
 Release:	1
@@ -20,14 +20,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Provides an implementation of the RFC2033 LMTP using PEAR's Net_Socket
-and Auth_SASL class.
+This package provides an implementation of the RFC2033 LMTP using
+PEAR's Net_Socket and Auth_SASL class.
 
 This class has in PEAR status: %{_status}.
 
 %description -l pl
-Dostarcza implementacji protoko³u LMTP (opisanego w RFC2033) za pomoc±
-klas Net_Socket oraz Auth_SASL.
+Ten pakiet dostarcza implementacjê protoko³u LMTP (opisanego w
+RFC2033) za pomoc± klas Net_Socket oraz Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
