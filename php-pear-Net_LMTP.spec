@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - an implementation of the RFC2033 LMTP protocol
-Summary(pl):	%{_pearname} - implementacja protoko³u LMTP (RFC2033)
+Summary(pl.UTF-8):   %{_pearname} - implementacja protokoÅ‚u LMTP (RFC2033)
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	3
@@ -29,15 +29,15 @@ PEAR's Net_Socket and Auth_SASL class.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet dostarcza implementacjê protoko³u LMTP (opisanego w
-RFC2033) za pomoc± klas Net_Socket oraz Auth_SASL.
+%description -l pl.UTF-8
+Ten pakiet dostarcza implementacjÄ™ protokoÅ‚u LMTP (opisanego w
+RFC2033) za pomocÄ… klas Net_Socket oraz Auth_SASL.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -46,7 +46,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
