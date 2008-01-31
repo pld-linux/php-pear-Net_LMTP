@@ -8,7 +8,7 @@ Summary:	%{_pearname} - an implementation of the RFC2033 LMTP protocol
 Summary(pl.UTF-8):	%{_pearname} - implementacja protokołu LMTP (RFC2033)
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
