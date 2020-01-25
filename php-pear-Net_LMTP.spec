@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Net_LMTP
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - an implementation of the RFC2033 LMTP protocol
 Summary(pl.UTF-8):	%{pearname} - implementacja protokołu LMTP (RFC2033)
 Name:		php-pear-%{pearname}
